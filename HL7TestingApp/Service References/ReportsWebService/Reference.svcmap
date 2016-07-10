@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="37a1a95b-bbf5-479c-bb41-d4ac6028bda6" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:15692/Reports.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Reports.xsd" MetadataType="Schema" ID="a58e751d-a823-41a0-b99b-48b08f0171ac" SourceId="1" SourceUrl="http://localhost:15692/Reports.svc?xsd=xsd1" />
+    <MetadataFile FileName="Reports.wsdl" MetadataType="Wsdl" ID="f1060887-cefa-492d-a16d-31cbfb8cf200" SourceId="1" SourceUrl="http://localhost:15692/Reports.svc?wsdl" />
+    <MetadataFile FileName="Reports1.xsd" MetadataType="Schema" ID="21bc82fa-e1ce-43d5-a0b3-63779e4d244b" SourceId="1" SourceUrl="http://localhost:15692/Reports.svc?xsd=xsd0" />
+    <MetadataFile FileName="Reports2.xsd" MetadataType="Schema" ID="0a4cad5d-833f-4ea4-ba7a-efa94d85f86d" SourceId="1" SourceUrl="http://localhost:15692/Reports.svc?xsd=xsd2" />
+    <MetadataFile FileName="Reports.disco" MetadataType="Disco" ID="dac6eebe-34b6-431b-a75c-8f9f9d15ce0f" SourceId="1" SourceUrl="http://localhost:15692/Reports.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
